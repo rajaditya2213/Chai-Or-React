@@ -1,0 +1,42 @@
+.new-collections{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     gap: 5px;
+     margin-bottom: 100px;
+
+}
+.new-collections h1{
+     color:#171717;
+     font-size: 50px;
+     font-weight: 600;
+
+}
+.new-collections hr{
+     width: 200px;
+     height: 6px;
+     color: red;
+     border-radius: 10px;
+     background-color: #252525;
+
+}
+.collections{
+     
+     /* display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+     gap: 20px;
+      */
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      margin-top: 100px;
+      gap: 20px;
+
+}
+
+.collections img{
+     width: 280px;
+
+}

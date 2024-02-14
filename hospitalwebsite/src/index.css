@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Fasthand&family=Lobster&family=Montserrat:ital,wght@1,800&family=Oswald&family=Playball&family=Poppins:ital,wght@1,500;1,600&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+     font-family: 'Poppins', sans-serif;
+
+}
